@@ -1,0 +1,32 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/alum5368/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp aboutus_eng.html $DEPLOYPATH
+    - /bin/cp aboutus.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp doorandwindowsliding_eng.html $DEPLOYPATH
+    - /bin/cp doorandwindowsliding.html $DEPLOYPATH
+    - /bin/cp doorandwindowswing_eng.html $DEPLOYPATH
+    - /bin/cp doorandwindowtoprailsliding_eng.html $DEPLOYPATH
+    - /bin/cp doorandwinwowtoprailsliding.html $DEPLOYPATH
+    - /bin/cp fixwindow_eng $DEPLOYPATH
+    - /bin/cp fixwindow.html $DEPLOYPATH
+    - /bin/cp foldingdoor_eng.html $DEPLOYPATH
+    - /bin/cp foldingdoor.html $DEPLOYPATH
+    - /bin/cp index_eng.html $DEPLOYPATH
+    - /bin/cp projects.html $DEPLOYPATH
+    - /bin/cp whatwedo_eng.html $DEPLOYPATH
+    - /bin/cp whatwedo.html $DEPLOYPATH
+    - /bin/cp windowsidehung_eng.html $DEPLOYPATH
+    - /bin/cp windowsidehung.html $DEPLOYPATH
+    - /bin/cp windowtophung_eng.html $DEPLOYPATH
+    - /bin/cp windowtophung.html $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R revolution $DEPLOYPATH
+    
